@@ -7,5 +7,5 @@ This extension has a kit-selector item in your inventory. A kit-selector GUI. Lo
 **TODO:**
 - Finish abilities for rest of kits
 - Add leveling up system
-    - Finish [ExperienceOrb]()
+    - Finish [ExperienceOrb](https://github.com/iStudLion/ExperienceOrb)
 - Implement custom death animation
