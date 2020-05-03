@@ -1,0 +1,1542 @@
+PvP:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: ironchestplate
+    amount: 1
+    slot: 1
+    name: '&b&lPvP Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Iron Sword'
+    - '&7- 10x Golden Apple'
+    - '&7- Iron Helmet'
+    - '&7- Iron Chestplate'
+    - '&7- Iron Leggings'
+    - '&7- Iron Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: ironsword
+      name: '&fPvP Sword'
+      slot: 0
+      enchantments:
+        sharpness: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: ironingot
+      name: '&aFighters Shield'
+      slot: 7
+      amount: 4
+      tags:
+        ability: default
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 10
+    '3':
+      item: ironhelmet
+      name: '&fPvP Helmet'
+      slot: helmet
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: ironchestplate
+      name: '&fPvP Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: ironleggings
+      name: '&fPvP Leggings'
+      slot: leggings
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: ironboots
+      name: '&fPvP Boots'
+      slot: boots
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+TNT:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: tnt
+    amount: 1
+    slot: 2
+    name: '&c&lTNT Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Gold Sword'
+    - '&7- 16x TNT'
+    - '&7- 6x Golden Apple'
+    - '&7- Gold Chestplate'
+    - '&7- Gold Leggings'
+    - '&7- Gold Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: goldsword
+      name: '&fTNT Sword'
+      slot: 0
+      enchantments:
+        sharpness: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: tnt
+      name: '&aThrowable TNT'
+      slot: 1
+      amount: 16
+      tags:
+        ability: tntthrower
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 6
+    '3':
+      item: goldchestplate
+      name: '&fTNT Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: goldleggings
+      name: '&fTNT Leggings'
+      slot: leggings
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: goldboots
+      name: '&fTNT Boots'
+      slot: boots
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Archer:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: bow
+    amount: 1
+    slot: 3
+    name: '&a&lArcher Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Stone Sword'
+    - '&7- Bow'
+    - '&7- 192x Arrow'
+    - '&7- 10x Golden Apple'
+    - '&7- Chain Helmet'
+    - '&7- Chain Chestplate'
+    - '&7- Chain Leggings'
+    - '&7- Chain Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: stonesword
+      name: '&fArcher Sword'
+      slot: 0
+      enchantments:
+        sharpness: 1
+        knockback: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: bow
+      name: '&fArcher Bow'
+      slot: 1
+      enchantments:
+        power: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '2':
+      item: feather
+      name: '&aArrow Explosion'
+      slot: 7
+      amount: 4
+      tags:
+        ability: machinegun
+    '3':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 8
+    '4':
+      item: arrow
+      amount: 64
+      slot: 9
+    '5':
+      item: arrow
+      amount: 32
+      slot: 10
+    '7':
+      item: chainhelmet
+      name: '&fArcher Helmet'
+      slot: helmet
+      enchantments:
+        protection: 3
+        projectileprotection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '8':
+      item: chainchestplate
+      name: '&fArcher Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 3
+        projectileprotection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '9':
+      item: chainleggings
+      name: '&fArcher Leggings'
+      slot: leggings
+      enchantments:
+        protection: 3
+        projectileprotection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '10':
+      item: chainboots
+      name: '&fArcher Boots'
+      slot: boots
+      enchantments:
+        protection: 3
+        projectileprotection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Fisherman:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: fishingrod
+    amount: 1
+    slot: 4
+    name: '&a&lFisherman Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Fishing Rod'
+    - '&7- 4x Golden Apple'
+    - '&7- Diamond Chestplate'
+    - '&7- Diamond Leggings'
+    - '&7- Diamond Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: fishingrod
+      name: '&fFisherman Rod'
+      slot: 0
+      enchantments:
+        sharpness: 4
+        knockback: 1
+        luck: 3
+        lure: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: sugar
+      name: '&aMast Powder'
+      slot: 7
+      amount: 4
+      tags:
+        ability: fisherman
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 4
+    '3':
+      item: diamondchestplate
+      name: '&fFisherman Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: diamondleggings
+      name: '&fFisherman Leggings'
+      slot: leggings
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: diamondboots
+      name: '&fFisherman Boots'
+      slot: boots
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+End:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: enderpearl
+    amount: 1
+    slot: 5
+    name: '&d&lEnd Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Stone Sword'
+    - '&7- 16x Ender Pearls'
+    - '&7- 2x Teleporters'
+    - '&7- 6x Golden Apple'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: stonesword
+      name: '&fEnd Sword'
+      slot: 0
+      enchantments:
+        sharpness: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: enderpearl
+      name: '&fEnder Pearl'
+      slot: 1
+      amount: 16
+    '2':
+      item: eyeofender
+      name: '&aTeleporter'
+      slot: 2
+      amount: 2
+      tags:
+        ability: end
+    '3':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 6
+    '4':
+      item: leatherhelmet
+      name: '&fEnd Helmet'
+      slot: helmet
+      color: '#5D327F'
+      enchantments:
+        protection: 3
+        projectileprotection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: leatherchestplate
+      name: '&fEnd Chestplate'
+      slot: chestplate
+      color: '#5D327F'
+      enchantments:
+        protection: 3
+        projectileprotection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: leatherleggings
+      name: '&fEnd Leggings'
+      slot: leggings
+      color: '#5D327F'
+      enchantments:
+        protection: 3
+        projectileprotection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '7':
+      item: leatherboots
+      name: '&fEnd Boots'
+      slot: boots
+      color: '#5D327F'
+      enchantments:
+        protection: 3
+        projectileprotection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Ninja:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  effect:
+    name: resistance
+    amplifier: 2
+  display:
+    item: netherstar
+    amount: 1
+    slot: 6
+    name: '&9&lNinja Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Diamond Sword'
+    - '&7- 4x Vanish Stars'
+    - '&7- 4x Golden Apple'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: diamondsword
+      name: '&fNinja Sword'
+      slot: 0
+      enchantments:
+        sharpness: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: netherstar
+      name: '&aVanish Star'
+      slot: 7
+      amount: 4
+      tags:
+        ability: ninja
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 4
+    '3':
+      item: leatherhelmet
+      name: '&fNinja Helmet'
+      slot: helmet
+      color: '#191919'
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: leatherchestplate
+      name: '&fNinja Chestplate'
+      slot: chestplate
+      color: '#191919'
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: leatherleggings
+      name: '&fNinja Leggings'
+      slot: leggings
+      color: '#191919'
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: leatherboots
+      name: '&fNinja Boots'
+      slot: boots
+      color: '#191919'
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Tank:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  effect:
+    name: slowness
+    amplifier: 2
+  display:
+    item: diamondchestplate
+    amount: 1
+    slot: 7
+    name: '&b&lTank Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Wooden Sword'
+    - '&7- 16x Golden Apple'
+    - '&7- 4x Tank Power'
+    - '&7- Diamond Helmet'
+    - '&7- Diamond Chestplate'
+    - '&7- Diamond Leggings'
+    - '&7- Diamond Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: woodsword
+      name: '&fTank Sword'
+      slot: 0
+      enchantments:
+        knockback: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: diamond
+      name: '&aTank Power'
+      slot: 7
+      amount: 4
+      tags:
+        ability: tank
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 16
+    '3':
+      item: diamondhelmet
+      name: '&fTank Helmet'
+      slot: helmet
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: diamondchestplate
+      name: '&fTank Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: diamondleggings
+      name: '&fTank Leggings'
+      slot: leggings
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: diamondboots
+      name: '&fTank Boots'
+      slot: boots
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Blaze:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  effect:
+    name: fireresistance
+    amplifier: 1
+  display:
+    item: blazepowder
+    amount: 1
+    slot: 10
+    name: '&6&lBlaze Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Gold Sword'
+    - '&7- 8x Golden Apple'
+    - '&7- 6x Blaze Aura'
+    - '&7- Gold Helmet'
+    - '&7- Gold Chestplate'
+    - '&7- Gold Leggings'
+    - '&7- Gold Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: goldsword
+      name: '&fBlaze Sword'
+      slot: 0
+      enchantments:
+        sharpness: 2
+        knockback: 1
+        fireaspect: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: blazerod
+      name: '&aLightning Rod'
+      slot: 1
+      amount: 6
+      tags:
+        ability: blaze_lightning
+    '3':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 8
+    '4':
+      item: goldhelmet
+      name: '&fBlaze Helmet'
+      slot: helmet
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: goldchestplate
+      name: '&fBlaze Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: goldleggings
+      name: '&fBlaze Leggings'
+      slot: leggings
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '7':
+      item: goldboots
+      name: '&fBlaze Boots'
+      slot: boots
+      enchantments:
+        protection: 3
+        featherfalling: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Rogue:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: diamondaxe
+    amount: 1
+    slot: 11
+    name: '&c&lRogue Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Diamond Axe'
+    - '&7- 10x Golden Apple'
+    - '&7- 4x Rogue Blood'
+    - '&7- Iron Helmet'
+    - '&7- Chain Chestplate'
+    - '&7- Chain Leggings'
+    - '&7- Iron Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: diamondaxe
+      name: '&fRogue Axe'
+      slot: 0
+      enchantments:
+        sharpness: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: fishingrod
+      name: '&fRogue Rod'
+      slot: 1
+      enchantments:
+        knockback: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '2':
+      item: redstone
+      name: '&aRogue Blood'
+      slot: 7
+      amount: 4
+      tags:
+        ability: rogue
+    '3':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 10
+    '4':
+      item: ironhelmet
+      name: '&fRogue Helmet'
+      slot: helmet
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: chainchestplate
+      name: '&fRogue Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: chainleggings
+      name: '&fRogue Leggings'
+      slot: leggings
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '7':
+      item: ironboots
+      name: '&fRogue Boots'
+      slot: boots
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Assassin:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  effect:
+    name: speed
+    amplifier: 2
+  display:
+    item: diamond
+    amount: 1
+    slot: 12
+    name: '&b&lAssassin Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Diamond Sword'
+    - '&7- Fishing Rod'
+    - '&7- 2x Golden Apple'
+    - '&7- 4x Assassin Speed'
+    - '&7- Iron Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: diamondsword
+      name: '&fAssassin Sword'
+      slot: 0
+      enchantments:
+        sharpness: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: fishingrod
+      name: '&fAssassin Rod'
+      slot: 1
+      enchantments:
+        knockback: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '2':
+      item: sugar
+      name: '&aAssassin Speed'
+      slot: 7
+      amount: 4
+      tags:
+        ability: assassin
+    '3':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 4
+    '4':
+      item: ironboots
+      name: '&fAssassin Boots'
+      slot: boots
+      enchantments:
+        protection: 5
+        projectileprotection: 5
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Slime:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  effect:
+    name: jumpboost
+    amplifier: 2
+  display:
+    item: slimeball
+    amount: 1
+    slot: 13
+    name: '&a&lSlime Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Slimeball'
+    - '&7- 6x Golden Apple'
+    - '&7- 4x Slime Essence'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: slimeball
+      name: '&fSlime Ball'
+      slot: 0
+      enchantments:
+        sharpness: 4
+        knockback: 4
+      amount: 1
+    '1':
+      item: emerald
+      name: '&aSlime Essence'
+      slot: 7
+      amount: 4
+      tags:
+        ability: slime
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 6
+    '3':
+      item: leatherhelmet
+      name: '&fSlime Helmet'
+      slot: helmet
+      color: '#7FCC19'
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: leatherchestplate
+      name: '&fSlime Chestplate'
+      slot: chestplate
+      color: '#7FCC19'
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: leatherleggings
+      name: '&fSlime Leggings'
+      slot: leggings
+      color: '#7FCC19'
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: leatherboots
+      name: '&fSlime Boots'
+      slot: boots
+      color: '#7FCC19'
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Snow:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: snowball
+    amount: 1
+    slot: 14
+    name: '&b&lSnow Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Iron Sword'
+    - '&7- 64x Snowballs'
+    - '&7- 6x Snow Explosion'
+    - '&7- 6x Golden Apple'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: ironsword
+      name: '&fSnow Sword'
+      slot: 0
+      enchantments:
+        sharpness: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: snowball
+      name: '&aExplosive Snowballs'
+      slot: 7
+      amount: 8
+      tags:
+        ability: snow
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 6
+    '3':
+      item: leatherhelmet
+      name: '&fSnow Helmet'
+      slot: helmet
+      color: '#FFFFFF'
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: leatherchestplate
+      name: '&fSnow Chestplate'
+      slot: chestplate
+      color: '#FFFFFF'
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: leatherleggings
+      name: '&fSnow Leggings'
+      slot: leggings
+      color: '#FFFFFF'
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: leatherboots
+      name: '&fSnow Boots'
+      slot: boots
+      color: '#FFFFFF'
+      enchantments:
+        protection: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Mage:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: emerald
+    amount: 1
+    slot: 19
+    name: '&d&lMage Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Gold Sword'
+    - '&7- 8x Golden Apple'
+    - '&7- 6x Mage Powder'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: goldsword
+      name: '&fMage Sword'
+      slot: 0
+      enchantments:
+        sharpness: 3
+        fireaspect: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: glowstonedust
+      name: '&aMage Dust'
+      slot: 7
+      amount: 6
+      tags:
+        ability: mage
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 8
+    '3':
+      item: leatherhelmet
+      name: '&fMage Helmet'
+      slot: helmet
+      color: '#F27FA5'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: leatherchestplate
+      name: '&fMage Chestplate'
+      slot: chestplate
+      color: '#F27FA5'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: leatherleggings
+      name: '&fMage Leggings'
+      slot: leggings
+      color: '#F27FA5'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: leatherboots
+      name: '&fMage Boots'
+      slot: boots
+      color: '#F27FA5'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Ancient:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: bone
+    amount: 1
+    slot: 20
+    name: '&e&lAncient Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Stone Sword'
+    - '&7- Fishing Rod'
+    - '&7- 12x Golden Apple'
+    - '&7- 4x Ancient Spell'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: stonesword
+      name: '&fAncient Sword'
+      slot: 0
+      enchantments:
+        sharpness: 3
+        knockback: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: fishingrod
+      name: '&fAncient Rod'
+      slot: 1
+      enchantments:
+        knockback: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '2':
+      item: bone
+      name: '&aAncient Spell'
+      slot: 7
+      amount: 4
+      tags:
+        ability: ancient
+    '3':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 12
+    '4':
+      item: leatherhelmet
+      name: '&fAncient Helmet'
+      slot: helmet
+      color: '#E5E533'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: leatherchestplate
+      name: '&fAncient Chestplate'
+      slot: chestplate
+      color: '#E5E533'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: leatherleggings
+      name: '&fAncient Leggings'
+      slot: leggings
+      color: '#E5E533'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '7':
+      item: leatherboots
+      name: '&fAncient Boots'
+      slot: boots
+      color: '#E5E533'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Wizard:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: inksac
+    amount: 1
+    slot: 21
+    name: '&9&lWizard Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Iron Sword'
+    - '&7- 10x Golden Apple'
+    - '&7- 6x Magic Escape'
+    - '&7- Leather Helmet'
+    - '&7- Diamond Chestplate'
+    - '&7- Diamond Leggings'
+    - '&7- Diamond Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: ironsword
+      name: '&fWizard Sword'
+      slot: 0
+      enchantments:
+        sharpness: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: inksac
+      name: '&aMagic Escape'
+      slot: 7
+      amount: 6
+      tags:
+        ability: wizard
+    '2':
+      item: goldenapple
+      name: '&fGolden Apple'
+      slot: 8
+      amount: 10
+    '3':
+      item: leatherhelmet
+      name: '&fWizard Helmet'
+      slot: helmet
+      color: '#6699D8'
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: diamondchestplate
+      name: '&fWizard Chestplate'
+      slot: chestplate
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: diamondleggings
+      name: '&fWizard Leggings'
+      slot: leggings
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '6':
+      item: diamondboots
+      name: '&fWizard Boots'
+      slot: boots
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Runemaster:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: goldnugget
+    amount: 1
+    slot: 28
+    name: '&6&lRunemaster Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Diamond Sword'
+    - '&7- 2x Runic Call'
+    - '&7- 12x Golden Apple'
+    - '&7- Leather Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Iron Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+  contents:
+    '0':
+      item: diamondsword
+      name: '&7Runemaster Sword'
+      slot: 0
+      enchantments:
+        sharpness: 1
+        fireaspect: 2
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '1':
+      item: blazepowder
+      name: '&aRunic Call'
+      slot: 7
+      amount: 2
+      tags:
+        ability: runic
+    '2':
+      item: leatherhelmet
+      name: '&fRunemaster Helmet'
+      slot: helmet
+      color: '#E5E533'
+      enchantments:
+        protection: 3
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '3':
+      item: leatherchestplate
+      name: '&fRunemaster Chestplate'
+      slot: chestplate
+      color: '#D87F33'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '4':
+      item: leatherleggings
+      name: '&fRunemaster Leggings'
+      slot: leggings
+      color: '#993333'
+      enchantments:
+        protection: 4
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+    '5':
+      item: ironboots
+      name: '&fRunemaster Boots'
+      slot: boots
+      enchantments:
+        protection: 1
+      flags:
+      - unbreakable
+      - hide_unbreakable
+      amount: 1
+Thorns:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: cactus
+    amount: 1
+    slot: 29
+    name: '&a&lThorns Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Stone Sword'
+    - '&7- 10x Golden Apple'
+    - '&7- Leather Helmet'
+    - '&7- Iron Chestplate'
+    - '&7- Chain Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+Lifestealer:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: diamondsword
+    amount: 1
+    slot: 30
+    name: '&6&lLifestealer Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Diamond Sword'
+    - '&7- 4x Golden Apple'
+    - '&7- Diamond Helmet'
+    - '&7- Leather Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Diamond Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+Timelord:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: clock
+    amount: 1
+    slot: 31
+    name: '&e&lTimelord Kit &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Iron Sword'
+    - '&7- 6x Golden Apple'
+    - '&7- 4x Slow Clock'
+    - '&7- Leather Helmet'
+    - '&7- Iron Chestplate'
+    - '&7- Chain Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
+Pyro:
+  price:
+    '0': 100
+    '1': 150
+    '2': 200
+  max-level: 3
+  enabled: true
+  display:
+    item: flintandsteel
+    amount: 1
+    slot: 32
+    name: '&d&lPyro &7(Level {LEVEL})'
+    lore:
+    - '&7'
+    - '&7- Stone Sword'
+    - '&7- 6x Golden Apple'
+    - '&7- 4x Flint'
+    - '&7- Leather Helmet'
+    - '&7- Chain Chestplate'
+    - '&7- Leather Leggings'
+    - '&7- Leather Boots'
+    - '&7'
+    - '&eLeft-click to select kit'
+    - '&eRight-click to preview kit'
